@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+*, *::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box;
+  background-color: #C7D0C6; }
+
+html {
+  font-size: 62.5%; }
+
+section {
+  height: 100vh;
+  width: 100%; }
+
+body {
+  line-height: 1.6;
+  font-family: Quattrocento, serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #636C65;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h5,
+p,
+span,
+a {
+  font-family: Quattrocento Sans, serif; }
+
+.vertical-separator {
+  display: inline-block;
+  width: 1px;
+  min-height: 25rem;
+  background-color: #636C65; }
+
+button {
+  width: 14.9rem;
+  height: 5rem;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: transparent;
+  font-family: Quattrocento Sans;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-align: center; }
+  button:hover, button:focus, button:active {
+    outline: none; }
+
+.header {
+  height: 95vh;
+  margin-bottom: 5vh;
+  background: url("../assets/img/bg-green.png") no-repeat center;
+  background-size: cover !important;
+  mix-blend-mode: darken;
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(95%, transparent), to(white));
+  position: relative; }
+  .header__logo-box {
+    position: absolute;
+    top: 2.2rem;
+    left: 3rem; }
+  .header__text-box {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .header__text-box h1 {
+      font-size: 7rem;
+      line-height: 7.8rem;
+      letter-spacing: 0em;
+      margin-bottom: 1.9rem; }
+    .header__text-box h5 {
+      font-size: 2rem;
+      line-height: 2.2rem;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-bottom: 6.8rem; }
+    .header__text-box h1,
+    .header__text-box h5 {
+      text-align: center; }
+  .header__button-box {
+    position: relative; }
+  .header__button {
+    width: 14.9rem;
+    height: 5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+
+.radial-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-basis: 35%;
+  column-gap: 3.8rem;
+  row-gap: 3.3rem;
+  max-width: 21rem; }
+  .radial-group__item {
+    display: inline-block;
+    position: relative;
+    width: 6.2rem;
+    height: 6.2rem; }
+    .radial-group__item--header {
+      font-size: 3rem;
+      z-index: 10; }
+    .radial-group__item--progress--bar {
+      width: 4.8rem;
+      height: 4.8rem;
+      background-color: #abb6ae;
+      border-radius: 50%; }
+      .radial-group__item--progress--bar--fill {
+        width: 6.2rem;
+        height: 6.2rem;
+        clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+        background-color: transparent;
+        border: solid 0.7rem #636c65;
+        border-radius: 50%; }
+    .radial-group__item--header, .radial-group__item--progress, .radial-group__item--progress--bar, .radial-group__item--progress--bar--fill {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
+
+.about {
+  position: relative; }
+  .about__container {
+    display: block;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .about__container--header {
+      margin-bottom: 4.7rem; }
+      .about__container--header h1 {
+        font-size: 7rem;
+        line-height: 7.8rem;
+        letter-spacing: 0em;
+        margin-bottom: 1.9rem; }
+      .about__container--header p {
+        max-width: 47.7rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+        letter-spacing: 0em;
+        text-align: justify; }
+      .about__container--header img {
+        position: absolute;
+        left: 18.3rem;
+        top: -3rem;
+        transform: translate(-50%); }

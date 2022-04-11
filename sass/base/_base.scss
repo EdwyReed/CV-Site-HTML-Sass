@@ -1,0 +1,20 @@
+*, *::after *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #C7D0C6;
+}
+
+html {
+    //makes 1rem = 10px
+    font-size: 62.5%;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}

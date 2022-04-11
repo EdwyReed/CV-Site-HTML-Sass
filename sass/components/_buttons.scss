@@ -1,0 +1,19 @@
+button {
+  width: 14.9rem;
+  height: 5rem;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: transparent;
+
+  font-family: Quattrocento Sans;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-align: center;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}

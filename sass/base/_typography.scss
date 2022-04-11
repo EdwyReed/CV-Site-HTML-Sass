@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+
+body {
+  line-height: 1.6;
+  font-family: Quattrocento, serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #636C65;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h5,
+p,
+span,
+a {
+  font-family: Quattrocento Sans, serif;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "vue-3-cv-site",
+  "version": "1.0.0",
+  "description": "Nice and simple static CV site with all general blocks: skills, contacts, portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ivan Petylo",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
