@@ -6,7 +6,7 @@
   background: url("../assets/img/bg-green.png") no-repeat center;
   background-size: cover !important;
   mix-blend-mode: darken;
-  -webkit-box-reflect: below 0 -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(95%, transparent), to(rgba(255, 255, 255, 1)));
+  -webkit-box-reflect: below -2px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(95%, transparent), to(rgba(255, 255, 255, 1)));
 
   position: relative;
 

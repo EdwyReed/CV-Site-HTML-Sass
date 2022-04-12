@@ -1,4 +1,8 @@
 .skills-group {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: center;
 }
 
 .radial-group {
@@ -10,6 +14,7 @@
   column-gap: 3.8rem;
   row-gap: 3.3rem;
   max-width: 21rem;
+  margin-bottom: 5rem;
 
   &__item {
     display: inline-block;
@@ -53,13 +58,34 @@
 }
 
 .linear-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  width: 16.9rem;
+  margin-bottom: 2rem;
+
   &__item {
     &--header {
+      display: block;
+      font-size: 2rem;
+      line-height: 2rem;
+      margin-bottom: 0.7rem;
     }
 
     &--progress {
+      display: block;
+
       &--bar {
+        position: relative;
+        background-color: #abb6ae;
+        border-radius: 25px;
+        height: 1rem;
+
         &--fill {
+          position: absolute;
+          background-color: #636c65;
+          border-radius: 25px;
+          height: 1rem;
         }
       }
     }
