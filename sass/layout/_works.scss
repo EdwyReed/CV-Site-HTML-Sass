@@ -1,3 +1,33 @@
-@import '../components/carousel';
+@import "../components/carousel";
 
 @include carousel(5);
+
+.works {
+  position: relative;
+
+  &__container {
+    display: block;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    &--header {
+      position: relative;
+      margin-left: 17%;
+
+      h1 {
+        font-size: 7rem;
+        line-height: 7.8rem;
+        letter-spacing: 0em;
+      }
+
+      img {
+        position: absolute;
+        left: 18.3rem;
+        top: -3rem;
+        transform: translate(-50%);
+      }
+    }
+  }
+}
