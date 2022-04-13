@@ -65,7 +65,7 @@ button {
   -webkit-box-reflect: below -2px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(95%, transparent), to(white));
   position: relative; }
   .header__logo-box {
-    position: absolute;
+    position: fixed;
     top: 2.2rem;
     left: 3rem; }
   .header__text-box {
