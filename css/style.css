@@ -29,7 +29,8 @@ body {
 h5,
 p,
 span,
-a {
+a,
+li {
   font-family: Quattrocento Sans, serif; }
 
 .inline-block {
@@ -336,7 +337,7 @@ button {
     transform: translate(-50%, -50%); }
     .works__container--header {
       position: relative;
-      margin-left: 17%; }
+      margin-left: 15.5%; }
       .works__container--header h1 {
         font-size: 7rem;
         line-height: 7.8rem;
@@ -346,3 +347,32 @@ button {
         left: 18.3rem;
         top: -3rem;
         transform: translate(-50%); }
+
+.contacts {
+  position: relative; }
+  .contacts__container {
+    display: block;
+    position: absolute;
+    left: 45.5%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .contacts__container--header {
+      position: relative;
+      margin-bottom: 8rem; }
+      .contacts__container--header h1 {
+        font-size: 7rem;
+        line-height: 7.8rem;
+        letter-spacing: 0em; }
+      .contacts__container--header img {
+        position: absolute;
+        left: 15rem;
+        top: -3rem;
+        transform: translate(-50%); }
+    .contacts__container--list {
+      border: 2px solid #636c65;
+      border-radius: 2rem;
+      padding: 9rem 7.8rem; }
+      .contacts__container--list ul {
+        list-style: none; }
+      .contacts__container--list li {
+        font-size: 2.5rem; }
